@@ -30,6 +30,3 @@ Your **index finger** acts as a **virtual brush**, and specific **hand gestures*
 
 ---
 
-## 📸 Demo Preview
-_Place an image or GIF here later_
-
