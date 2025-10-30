@@ -1,3 +1,17 @@
-python3 -m venv venv
-source venv/bin/activate
-pip install mediapipe opencv-python numpy
+# Add the Deadsnakes PPA for newer Python versions
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+
+# Install required system tool
+sudo apt install software-properties-common
+
+# (Optional) Re-add repository if needed
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+
+# Install Python 3.10 and virtual environment tools
+sudo apt install python3.10 python3.10-venv python3.10-dev
+
+# Create and activate virtual environment
+python3.10 -m venv ar-env
+source ar-env/bin/activate
